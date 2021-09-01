@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+  thymeleaf:
+    cache: false
+name: gongchengjian
+age: 18
